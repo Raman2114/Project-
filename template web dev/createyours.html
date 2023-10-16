@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: fixed;
+        }
+
+        .nav {
+            background-color: white;
+            height: 100px;
+
+        }
+
+        .button {
+            padding: 30px;
+            padding-left: 385px;
+            background-color: white;
+            width: 100%;
+        }
+
+        .logo {
+            padding: 20px;
+            padding-right: 120px;
+            background-color: white;
+            margin-right: -120px;
+            padding-left: 90px;
+        }
+
+        .but1 {
+            border-radius: 200px;
+            padding: 12px;
+            margin-left: 25px;
+            width: 120px;
+            background-color: blue;
+            color: white;
+            border: 1px solid blue;
+        }
+
+        .but {
+            border-radius: 200px;
+            padding: 12px;
+            border: 1px solid white;
+            margin-left: 30px;
+        }
+
+        .button .but:hover {
+            background-color: blue;
+            color: white;
+            transition-duration: 2s;
+        }
+
+        .view {
+            text-align: center;
+            background-color: rgb(103, 103, 238);
+            color: aliceblue;
+            height: 55vh;
+            padding-top: 220px;
+        }
+
+        .b1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .but1:hover {
+            background-color: aliceblue;
+            transition-duration: 2s;
+            color: blue;
+        }
+
+        .but:hover {
+            color: rgb(221, 221, 226);
+            background-color: blue;
+        }
+
+        .formall {
+            border: 1px solid rgb(78, 76, 76);
+            background-color: rgba(65, 62, 62, 0.505);
+            color: aliceblue;
+            width: 180vh;
+            border-radius: 30px;
+            text-align: center;
+            margin : 80px 0px 50px 110px;
+           padding: 55px 10px 55px 10px;
+        }
+
+        .form2 input {
+            background-color: rgba(41, 40, 40, 0.74);
+            color: aliceblue;
+            padding: 10px 350px 10px 10px;
+            border-radius: 240px;
+            margin: 5px 30px 20px 7px;
+        }
+
+        .form1 input {
+            background-color: rgba(41, 40, 40, 0.74);
+            color: aliceblue;
+            padding: 10px;
+            padding-right: 190px;
+            border-radius: 240px;
+            margin: 5px 20px 20px 5px;
+        }
+
+        .form1,
+        .form2,
+        .form3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .part11 {
+            display: flex;
+        }
+
+        .form3 button {
+            background-color: blue;
+            color: aliceblue;
+            padding: 10px 50vh 10px 50vh;
+            border-radius: 240px;
+            margin-top: 25px;
+        }
+        .form3 button:hover{
+            background-color: aliceblue;
+            color: blue;
+            transition: 1s;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .head hr {
+            width: 100px;
+            margin-top: 150px;
+        }
+
+        .head {
+            text-align: center;
+        }
+
+        .pehla {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dusrapart {
+            display: flex;
+        }
+
+        .dusrapart img {
+            border-radius: 200px;
+            margin: 10px;
+            margin-right: 35px;
+        }
+        .container{
+            background-color: rgba(0, 0, 0, 0.856);
+            color: aliceblue;
+            padding-bottom: 80px;
+        }
+
+        .imagevala img {
+            border-radius: 30px;
+            margin: 40px;
+            height: 80vh;
+        }
+
+        .contentvala {
+            margin: 30px 10vh 30px 0px;
+        }
+
+        .flex3a1 {
+            padding: 10px;
+        }
+
+        .sec5 {
+            display: flex;
+            background-color: blueviolet;
+            justify-content: center;
+        }
+
+        .sec5 .h41 {
+            padding-left: 25px;
+        }
+        .sec2{
+            padding-top: 20vh;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <div class="button">
+                <button class="but"><b>Home</b></button>
+                <button class="but"><b>Explore</b></button>
+                <button class="but1"><b>Item details</b></button>
+                <button class="but"><b>Author</b></button>
+                <button class="but"><b>Create yours</b></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="view">
+            <h3>Liberty NFT Market</h3>
+            <h1>CREATE YOUR NFT NOW.</h1>
+            <p><a href="">Home ></a> Item Details</p>
+
+            <div class="b1">
+                <div class="but1">Explore our items</div>
+                <div class="but">Create your NFT</div>
+            </div>
+        </div>
+
+        <div class="sec2">
+            <h1>Apply For <a href="Your Item ">Your Item </a> Here.</h1>
+        </div>
+
+        <div class="formall">
+            <div class="form1">
+                <div class="info">
+                    <p>Item Title</p>
+                    <input type="text" placeholder="Ex.Lyon Singh">
+                </div>
+                <div class="info">
+                    <p>Description For Item</p>
+                    <input type="text" placeholder="Give us your idea">
+                </div>
+                <div class="info">
+                    <p>Your Username</p>
+                    <input type="text" placeholder="Ex.Lyon Singh">
+                </div>
+            </div>
+
+            <div class="form2">
+                <div class="info">
+                    <p>Price Of Item</p>
+                    <input type="text" placeholder="Price depends on quality. Ex. 0.06 ETH">
+                </div>
+                <div class="info">
+                    <p>Royalties</p>
+                    <input type="text" placeholder="Common royalties 1-25%">
+                </div>
+            </div>
+
+            <div class="form3">
+                <div class="info">
+                    <button>Submit Your applying</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="head">
+            <a href="<hr>">
+                <hr>
+            </a>
+            <h1>This Is<a href="">Your Item</a>Preview.</h1>
+        </div>
+
+        <div class="pehla">
+            <div class="imagevala">
+                <img src="images/item-details-01.jpg" alt="">
+            </div>
+
+            <div class="contentvala">
+                <h2>Dolores Haze Westworld Eye</h2>
+                <div class="dusrapart">
+                    <img src="images/itemdetailsauthor-02.jpg" alt="">
+                    <div class="a">
+                        <p>Kataleya Smithee</p>
+                        <a href="@kataleey">@kataleey</a>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
+                <div class="flex">
+                    <div class="flex3a1">
+                        <p>Current Bid</p>
+                        <a href="<h2>6.06 ETH</h2>">
+                            <h2>6.06 ETH</h2>
+                        </a>
+                        <h3>($8,025.50)</h3>
+                    </div>
+                    <div class="flex3a1">
+                        <p>Owner</p>
+                        <a href="<h2>Alan Smithee</h2>">
+                            <h2>Alan Smithee</h2>
+                        </a>
+                        <h3>(@alansmithee)</h3>
+                    </div>
+                    <div class="flex3a1">
+                        <p>Ends In</p>
+                        <a href="<h2>3D 05H 20M 58S</h2>">
+                            <h2>3D 05H 20M 58S</h2>
+                        </a>
+                        <h3>(January 22nd, 2021)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec5">
+        <h4>Copyright © 2022 Liberty NFT Marketplace Co., Ltd. All rights reserved.</h4>
+        <h4 class="h41">Designed by TemplateMo</h4>
+    </div>
+
+</body>
+
+</html>
